@@ -1,0 +1,11 @@
+{
+  "name": "nuwa-sitio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "css": "tailwindcss -c tailwind.config.cjs -i assets/css/entrada.css -o assets/css/estilos.css --minify",
+    "css:watch": "tailwindcss -c tailwind.config.cjs -i assets/css/entrada.css -o assets/css/estilos.css --watch"
+  },
+  "devDependencies": { "tailwindcss": "3.4.17" }
+}
